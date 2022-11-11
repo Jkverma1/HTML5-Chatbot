@@ -1,0 +1,84 @@
+#main {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  width: 250px;
+  background: #ffffff;
+  box-shadow: 0px 8px 32px -4px rgba(5, 134, 117, 0.16);
+  border-radius: 20px;
+  padding: 0 0 20px;
+}
+#input {
+  width: 200px;
+  margin: 0 20px;
+  padding: 16px 0 16px 8px;
+  border-radius: 10px;
+  border: 1px solid #e7e7e7;
+}
+
+.profile {
+  padding: 13px;
+  color: #fff;
+  font-family: sans-serif;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #79c7c5;
+  text-align: center;
+}
+
+#messages {
+  margin-top: 20px;
+  padding: 0 10px;
+  font-family: sans-serif;
+  min-height: 200px;
+  max-height: 250px;
+  overflow: auto;
+}
+
+#messages::-webkit-scrollbar {
+  display: none;
+}
+
+.user {
+  margin-left: 30px;
+  width: 180px;
+  text-align: right;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #79c7c5;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.bot {
+  width: 180px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #b2b2b2;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  height: 90%;
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  #main {
+    right: 57px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #main {
+    right: 15px;
+    bottom: 20px;
+  }
+}
