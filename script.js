@@ -1,9 +1,21 @@
 const utterances = [
-  ["how are you", "how is life", "how are things"], //0
+  [
+    "how are you",
+    "how is life",
+    "how are things",
+    "How are you doing",
+    "How are you going",
+  ], //0
   ["hi", "hey", "hello", "good morning", "good afternoon"], //1
   ["what are you doing", "what is going on", "what is up"], //2
   ["how old are you"], //3
   ["who are you", "are you human", "are you bot", "are you human or bot"], //4
+  ["what's up?"], //5
+  ["good morning"], //6
+  ["good evening"], //7
+  ["good morning"], //8
+  ["good night"], //9
+  ["can you help me?"] //10
 ];
 // Possible responses corresponding to triggers
 
@@ -21,7 +33,17 @@ const answers = [
     "I don't know actually",
   ], //2
   ["I am infinite"], //3
-  ["I am just a bot", "I am a bot. What are you?"], //4
+  [
+    "I am just a bot",
+    "I am a bot. how are you?",
+    "I am a robot, but I'm a good one. Let me prove it. How can I help you?",
+  ], //4
+  ["I am Great! Thanks for asking.", "Awesome like you."], //5
+  ["Good Morning! How Can I help you?"], //6
+  ["good evening! How Can I help you?"], //7
+  ["good morning! How Can I help you?"], //8
+  ["good night! How Can I help you?"], //9
+  ["Definetely! Please tell me how can i help you?"]
 ];
 
 // For any other user input
